@@ -1,0 +1,22 @@
+{
+  "datenbank": {
+    "host": "localhost",
+    "port": 5432,
+    "name": "produktdb",
+    "tabellen": [
+      {
+        "name": "produkte",
+        "spalten": ["id", "name", "preis", "kategorie"]
+      },
+      {
+        "name": "verkäufe",
+        "spalten": ["id", "produkt_id", "datum", "menge"]
+      }
+    ]
+  },
+  "einstellungen": {
+    "cache_enabled": true,
+    "max_connections": 100,
+    "timeout": 30
+  }
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bestellungen>
+    <bestellung id="1">
+        <kunde>Max Mustermann</kunde>
+        <produkte>
+            <produkt>
+                <name>Laptop</name>
+                <preis>999.99</preis>
+            </produkt>
+        </produkte>
+    </bestellung>
+    <bestellung id="2"
+        <kunde>Anna Schmidt</kunde>
+        <produkte>
+            <produkt>
+                <name>Maus</name>
+                <preis>invalid</preis>
+            </produkt>
+    </bestellung>
+    <bestellung id="3">
+        <kunde></kunde>
+        <produkte>
+            <product>
+                <bezeichnung>Tastatur</bezeichnung>
+                <price>59.99</price>
+            </product>
+        </produkte>
+    </bestellung>
+    <bestellung>
+        <kunde>Peter Meyer</kunde>
+        <produkte>
+            <produkt>
+                <name>Monitor
+                <preis>299.99</preis>
+            </produkt>
+        </produkte>
+    </bestellung>
+</bestellungen>

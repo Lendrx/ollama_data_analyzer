@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventar>
+    <kategorie name="Computer">
+        <produkt>
+            <name>Gaming Laptop</name>
+            <marke>TechPro</marke>
+            <preis>1299.99</preis>
+            <lagerbestand>15</lagerbestand>
+        </produkt>
+        <produkt>
+            <name>Business Laptop</name>
+            <marke>WorkMaster</marke>
+            <preis>899.99</preis>
+            <lagerbestand>23</lagerbestand>
+        </produkt>
+    </kategorie>
+    <kategorie name="Peripherie">
+        <produkt>
+            <name>Mechanische Tastatur</name>
+            <marke>TypeMaster</marke>
+            <preis>129.99</preis>
+            <lagerbestand>45</lagerbestand>
+        </produkt>
+        <produkt>
+            <name>Gaming Maus</name>
+            <marke>ClickPro</marke>
+            <preis>79.99</preis>
+            <lagerbestand>67</lagerbestand>
+        </produkt>
+    </kategorie>
+</inventar>

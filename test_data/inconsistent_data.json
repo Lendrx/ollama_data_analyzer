@@ -1,0 +1,34 @@
+{
+  "produkte": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "preis": 999.99,
+      "kategorie": "Electronics"
+    },
+    {
+      "id": "2",
+      "name": "Maus",
+      "preis": "29.99",
+      "category": "Zubehör"
+    },
+    {
+      "id": 3,
+      "produktname": "Tastatur",
+      "price": 59.99,
+      "kategorie": "Peripherie"
+    },
+    {
+      "ID": "4",
+      "Name": "Monitor",
+      "Preis": "299,99",
+      "Kategorie": "Display"
+    },
+    {
+      "id": null,
+      "name": "",
+      "preis": -99.99,
+      "kategorie": "ELECTRONICS"
+    }
+  ]
+}

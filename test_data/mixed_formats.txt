@@ -1,0 +1,37 @@
+VERKAUFSBERICHT 2024
+------------------
+
+CSV-DATEN:
+Produkt,Menge,Preis
+Laptop,2,999.99
+Maus,5,29.99
+Tastatur,3,59.99
+
+JSON-STRUKTUR:
+{
+  "kunde": "Max Mustermann",
+  "bestellung": {
+    "id": 12345,
+    "produkte": [
+      {"name": "Laptop", "menge": 1}
+    ]
+  }
+}
+
+FREITEXT:
+Zusätzliche Notizen zur Bestellung:
+- Lieferung dringend
+- Kunde wünscht Rechnung per E-Mail
+- Versand an alternative Adresse
+
+XML-FRAGMENT:
+<kunde>
+  <name>Anna Schmidt</name>
+  <email>anna@example.com</email>
+</kunde>
+
+UNSTRUKTURIERTE NOTIZEN:
+Rückruf erforderlich wegen Lieferung
+Tel: 0123-456789
+Termin: nächste Woche
+Budget: ca. 2000€

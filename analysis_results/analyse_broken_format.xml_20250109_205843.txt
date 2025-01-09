@@ -1,0 +1,18 @@
+Analyse für: test_data/broken_format.xml
+Durchgeführt am: 2025-01-09 20:58:43
+==================================================
+
+=== Strukturanalyse ===
+Die XML-Datei besteht aus einer Haupt-Elementnamens `bestellungen`, das mehrere Unterelemente der Art `bestellung` enthält. Jede `bestellung` hat ein Attribut namens `id`, welches eine eindeutige Bestellnummer darstellt, sowie untergeordnete Elemente `kunde` und `produkte`. Das Element `kunde` speichert den Namen des Kunden, `produkte` enthält eine Liste von Produkten der Bestellung, die wiederum einzelne `produkt`-Elemente haben. Jedes `produkt` hat die Attribute `name`, um die Bezeichnung des Produktes anzugeben und `preis`, um den Preis des Produkts anzuzeigen.
+
+=== Qualitätsanalyse ===
+Die Datenqualität ist einige Mängel betroffen. Es fehlt ein Kundenname in der dritten Bestellung, was zu einer leeren Zeile im `kunde`-Element führt. In der zweiten Bestellung wird kein Preis für das Produkt angegeben. Ferner gibt es eine ungültige Umlaut-Kodierung des Namenes "Maus".
+
+=== Transformationsempfehlungen ===
+Um die Qualität der Daten zu verbessern, kann man die folgenden Verbesserungen empfehlen:
+   - Ersetze die nicht korrekt kodierten Umlaute in den Kunden- und Produktnamen.
+   - Verifiziere und korrigiere fehlende Werte, insbesondere den Preis eines Produkts, bevor sie in die Datei eingegeben werden.
+   - Ersetze leere Zeilen in den `kunde`-Elementen mit einem standardmäßigen Text wie "Kein Name angegeben".
+
+=== Mögliche Anwendungsfälle ===
+Die Daten können in verschiedenen Anwendungen genutzt werden, beispielsweise für die Erstellung von Rechnungen, der Inventarverwaltung oder der Auswertung statistischer Informationen zur Bestellanalysen.

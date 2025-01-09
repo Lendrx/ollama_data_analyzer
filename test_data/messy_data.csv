@@ -1,0 +1,12 @@
+Name,Alter, Email,   Umsatz  ,Datum
+Max Mustermann,35,max@example.com,1000.50,2024-01-01
+Anna Schmidt,,anna.schmidt@example.com,2500,01-02-2024
+Peter Meyer,42,,1200.75,2024-01-03
+Lisa Müller,28,lisa@example.com,invalid,2024-01-04
+,39,karl@example.com,1500.25,2024/01/05
+Robert Klein,31,robert@example,800,06-01-2024
+Emma Weber,NA,emma.weber@example.com,2000.00,2024-01-07
+Thomas Jung,45,thomas@example.com,,01/08/2024
+Sarah Becker,36,sarah@example.com,1750.50,
+Max Mueller,33,max@example.com,1200.75,2024-01-10
+Ana Schmidt,29,ana.schmidt@example.com,900,11.01.2024
