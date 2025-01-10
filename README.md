@@ -1,7 +1,8 @@
 # Ollama Data Analyzer
 
 Ein Python-Tool - Analyse von Dateistrukturen und Datenqualität.
-**Ollama LLMs*
+
+*Ollama LLMs*
 
 ## Features
 - Automatische Erkennung von Dateiformaten (CSV, JSON, XML)
