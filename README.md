@@ -1,9 +1,5 @@
 # Ollama Data Analyzer
 
-Dieses Projekt implementiert einen RAG-basierten Chatbot, der auf einer Sammlung von Finanzberichten trainiert wurde. Er kann Fragen zu Jahresabschlüssen beantworten und bietet genaue und kontextbezogene Informationen.
-
-![Demo GIF](assets/demo.gif)
-
 Ein Python-Tool - Analyse von Dateistrukturen und Datenqualität.
 
 *Ollama LLMs*
